@@ -15,15 +15,15 @@ license="${mod_license}"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="${mod_id}" #mandatory
+modId="boss_whackers" #mandatory
 # The version number of the mod
 version="${mod_version}" #mandatory
 # A display name for the mod
 displayName="${mod_name}" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
-##updateJSONURL="b" #optional
+updateJSONURL="https://raw.githubusercontent.com/BoyPika/boss-whackers-forge/master/update.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-##displayURL="a" #optional
+displayURL="https://github.com/BoyPika/boss-whackers-forge" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="boss_whackers.png" #optional
 # A text field displayed in the mod UI
@@ -41,7 +41,7 @@ authors="${mod_authors}" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''${mod_description}'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.${mod_id}]] #optional
+[[dependencies.boss_whackers]] #optional
    # the modid of the dependency
    modId="forge" #mandatory
    # Does this dependency have to exist - if not, ordering below must be specified
@@ -54,7 +54,7 @@ description='''${mod_description}'''
    ordering="NONE"
    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
    side="BOTH"# Here's another dependency
-[[dependencies.${mod_id}]]
+[[dependencies.boss_whackers]]
    modId="minecraft"
    mandatory=true
    # This version range declares a minimum of the current minecraft version up to but not including the next major version
