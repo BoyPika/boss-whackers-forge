@@ -1,0 +1,9 @@
+{
+  "creativetab.whackers": "Boss Whackers",
+  "item.boss_whackers.dragon_whacker": "Dragon Whacker",
+  "item.boss_whackers.warden_whacker": "Warden Whacker",
+  "item.boss_whackers.wither_whacker": "Wither Whacker",
+  "text.item.bosswhackers.event_fail_message.dragon_whacker": "This sword only actually works on the Ender Dragon",
+  "text.item.bosswhackers.event_fail_message.warden_whacker": "This sword only actually works on the Warden",
+  "text.item.bosswhackers.event_fail_message.wither_whacker": "This sword only actually works on the Wither"
+}

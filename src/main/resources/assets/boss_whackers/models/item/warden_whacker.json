@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "boss_whackers:item/warden_whacker"
+  }
+}
