@@ -2,21 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " N ",
-    "III",
-    " S "
+    "NWN",
+    " E "
   ],
   "key": {
     "N": {
       "item": "minecraft:nether_star"
     },
-    "S": {
-      "item": "minecraft:stick"
+    "E": {
+      "item": "minecraft:dragon_egg"
     },
-    "I": {
-      "item": "minecraft:netherite_block"
+    "W": {
+      "item": "boss_whackers:wither_whacker"
     }
   },
   "result": {
-    "item": "bosswhackers:wither_whacker"
+    "item": "boss_whackers:dragon_whacker"
   }
 }
